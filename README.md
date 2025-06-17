@@ -97,5 +97,56 @@ Este proyecto integra Google Cloud Run y Google Apps Script para automatizar el 
 ├── requirements.txt # Dependencias para Functions Framework
 ├── apps_script.js # Código fuente del Google Apps Script
 ├── README.md # Documentación del proyecto
-└── images/ # Capturas del funcionamiento
+└── imagenes/ # Capturas del funcionamiento
+```
+
+---
+
+## ✅ Resultados Esperados
+
+A continuación se muestran los resultados esperados del sistema, validados durante las pruebas de integración:
+
+### 📤 Subida de archivos en Cloud Storage
+
+La función se activa automáticamente cuando se sube un archivo al bucket configurado.
+
+![Subida de archivo](imagenes/carpeta.png)
+
+### ⚙️ Registro correcto en Cloud Run
+
+Los metadatos se procesan correctamente y se genera una respuesta inmediata en los logs de Cloud Run.
+
+![Registro en Cloud Run](imagenes/registro_cloud_run.png)
+
+### 📝 Registro en Google Sheets
+
+Los eventos se registran correctamente en la hoja de cálculo, mostrando información como el nombre del archivo, tamaño (bytes), tipo MIME y fecha de subida.
+
+![Registro en hoja de cálculo](imagenes/registro_sheet.png)
+
+### 📧 Notificación por correo
+
+Se envía un correo electrónico al destinatario configurado, con los detalles del archivo subido.
+
+![Notificación de correo](imagenes/notificacion_gmail.png)
+
+El correo muestra la información del archivo sin errores.
+
+![Información en correo](imagenes/info_archivo_correo.png)
+
+---
+
+## 🧠 Lecciones Aprendidas
+
+- La integración entre GCP y Google Workspace puede ser compleja pero muy poderosa.
+- La validación y seguridad entre plataformas es crítica.
+- La documentación clara y modular facilita la escalabilidad del sistema.
+
+---
+
+## 📈 Próximas Mejores
+
+- Reemplazar el token por OAuth o Service Account si se desea mayor seguridad.
+- Registrar más metadatos (usuario que subió el archivo, bucket, región, etc.).
+
 
