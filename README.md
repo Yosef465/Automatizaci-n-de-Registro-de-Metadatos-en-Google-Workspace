@@ -122,17 +122,17 @@ Los metadatos se procesan correctamente y se genera una respuesta inmediata en l
 
 Los eventos se registran correctamente en la hoja de cálculo, mostrando información como el nombre del archivo, tamaño (bytes), tipo MIME y fecha de subida.
 
-![Registro en hoja de cálculo](images/registro_sheet.png)
+![Registro en hoja de cálculo](images/regsitro_sheet.png)
 
 ### 📧 Notificación por correo
 
 Se envía un correo electrónico al destinatario configurado, con los detalles del archivo subido.
 
-![Notificación de correo](images/notificacion_gmail.png)
+![Notificación de correo](images/notificacion_gmail.jpg)
 
 El correo muestra la información del archivo sin errores.
 
-![Información en correo](images/info_archivo_correo.png)
+![Información en correo](images/info_archivo_correo.jpg)
 
 ---
 
