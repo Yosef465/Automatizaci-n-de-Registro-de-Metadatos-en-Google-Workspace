@@ -91,4 +91,9 @@ Este proyecto integra Google Cloud Run y Google Apps Script para automatizar el 
 ---
 
 ## 📂 Estructura del Repositorio
+├── main.py # Código Python para Cloud Run
+├── requirements.txt # Dependencias para Functions Framework
+├── apps_script.js # Código fuente del Google Apps Script
+├── README.md # Documentación del proyecto
+└── images/ # Capturas del funcionamiento
 
