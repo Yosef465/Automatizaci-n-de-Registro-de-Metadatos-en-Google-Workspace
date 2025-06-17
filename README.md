@@ -110,29 +110,29 @@ A continuación se muestran los resultados esperados del sistema, validados dura
 
 La función se activa automáticamente cuando se sube un archivo al bucket configurado.
 
-![Subida de archivo](imagenes/carpeta.png)
+![Subida de archivo](images/carpeta.png)
 
 ### ⚙️ Registro correcto en Cloud Run
 
 Los metadatos se procesan correctamente y se genera una respuesta inmediata en los logs de Cloud Run.
 
-![Registro en Cloud Run](imagenes/registro_cloud_run.png)
+![Registro en Cloud Run](images/registro_cloud_run.png)
 
 ### 📝 Registro en Google Sheets
 
 Los eventos se registran correctamente en la hoja de cálculo, mostrando información como el nombre del archivo, tamaño (bytes), tipo MIME y fecha de subida.
 
-![Registro en hoja de cálculo](imagenes/registro_sheet.png)
+![Registro en hoja de cálculo](images/registro_sheet.png)
 
 ### 📧 Notificación por correo
 
 Se envía un correo electrónico al destinatario configurado, con los detalles del archivo subido.
 
-![Notificación de correo](imagenes/notificacion_gmail.png)
+![Notificación de correo](images/notificacion_gmail.png)
 
 El correo muestra la información del archivo sin errores.
 
-![Información en correo](imagenes/info_archivo_correo.png)
+![Información en correo](images/info_archivo_correo.png)
 
 ---
 
